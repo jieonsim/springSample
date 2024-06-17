@@ -6,6 +6,7 @@
 	<context-param>
 		<param-name>contextConfigLocation</param-name>
 		<param-value>/WEB-INF/spring/root-context.xml</param-value>
+		<param-value>/WEB-INF/spring/context-security.xml</param-value>
 	</context-param>
 
 	<!-- Creates the Spring Container shared by all Servlets and Filters -->
@@ -38,7 +39,6 @@
 			<param-value>UTF-8</param-value>
 		</init-param>
 	</filter>
-
 	<filter-mapping>
 		<filter-name>encoding</filter-name>
 		<url-pattern>/*</url-pattern>
